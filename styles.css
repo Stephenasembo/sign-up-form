@@ -22,7 +22,15 @@
 
 .credit {
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
+    color: white;
+    min-width: max-content;
+}
+
+.credit > p {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
 }
 
 span {
@@ -37,4 +45,29 @@ fieldset {
 
 label {
     display: block;
+}
+
+button {
+    background-color: #53a0b8ba;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+}
+
+input[type="password"]:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 1px blue;
+}
+
+a {
+    text-decoration: none;
+    color: #018ca6;
 }
