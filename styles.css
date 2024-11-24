@@ -1,0 +1,7 @@
+.logo {
+    background-image: url(./images/kees-streefkerk-Adl90-aXYwA-unsplash.jpg);
+}
+
+.container {
+    display: flex;
+}
